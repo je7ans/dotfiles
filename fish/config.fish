@@ -12,7 +12,7 @@ fzf --fish | source
 batman --export-env | source
 
 # zoxide instead of cd
-zoxide init fish | source
+zoxide init fish --cmd cd | source
 
 # use vim keybindings
 # fish_default_key_bindings to revert to normal
